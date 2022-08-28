@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.661655115067E+15,"dur": 6468000, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.661655115088E+15,"dur": 343000, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.661655115469E+15,"dur": 6012000, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "08/27/2022 21:52:01",
+"meta_command_line": "/home/nassud/Unity/Hub/Editor/2021.3.8f1/Editor/Unity -projectpath \"/home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-nassud -hubSessionId 7ed65f30-2679-11ed-adaa-77617364091a",
+"meta_command_line_args": "/home/nassud/Unity/Hub/Editor/2021.3.8f1/Editor/Unity -projectpath /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2 -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-nassud -hubSessionId 7ed65f30-2679-11ed-adaa-77617364091a",
+"meta_user_name": "nassud",
+"meta_os_version": "Unix 5.19.0.76051900",
+"meta_cpu_count": "8"
+}
