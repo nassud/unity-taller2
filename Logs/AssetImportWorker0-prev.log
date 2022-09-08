@@ -10,7 +10,7 @@ Available memory:        64097 MB
 Using pre-set license
 Pro License: YES
 
-(Unity:13805): Gdk-CRITICAL **: 20:51:07.292: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+(Unity:13039): Gdk-CRITICAL **: 07:38:35.701: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
 Desktop is 2256 x 1504 @ 60 Hz
 Initialize udev device monitor.
 
@@ -26,7 +26,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-40649
+35983
 Successfully changed project path to: /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2
 /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -58,7 +58,7 @@ Successfully changed project path to: /home/nassud/Documents/Uniempresarial/Vide
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 45,13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46,59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path /home/nassud/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -74,85 +74,88 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture
 _shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1888770512
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1487794816
 ../src/intel/isl/isl.c:2220: FINISHME: ../src/intel/isl/isl.c:isl_surf_supports_ccs: CCS for 3D textures is disabled, but a workaround is available.
 Initialize mono
 Mono path[0] = '/home/nassud/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = '/home/nassud/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/nassud/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56805
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56039
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/nassud/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/nassud/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,003432 seconds.
+Registered in 0,003911 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 46,35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54,40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,412 seconds
+- Completed reload, in  0,455 seconds
 Domain Reload Profiling:
-	ReloadAssembly (412ms)
-		BeginReloadAssembly (33ms)
+	ReloadAssembly (455ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (307ms)
-			LoadAssemblies (32ms)
+			CreateAndSetChildDomain (7ms)
+		EndReloadAssembly (334ms)
+			LoadAssemblies (33ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (69ms)
+			SetupTypeCache (79ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (182ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,002000 seconds.
+Registered in 0,002286 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+OnLevelWasLoaded was found on Navegacion
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,765 seconds
+- Completed reload, in  0,764 seconds
 Domain Reload Profiling:
-	ReloadAssembly (766ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (764ms)
+		BeginReloadAssembly (182ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (511ms)
-			LoadAssemblies (38ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (502ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (240ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (158ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (152ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
@@ -160,12 +163,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0,48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (36,7 KB). Loaded Objects now: 3789.
-Memory consumption went from 110,9 MB to 110,8 MB.
-Total: 3,134330 ms (FindLiveObjects: 0,190903 ms CreateObjectMapping: 0,095396 ms MarkObjects: 2,746579 ms  DeleteObjects: 0,097079 ms)
+Unloading 3328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (36,7 KB). Loaded Objects now: 3793.
+Memory consumption went from 111,1 MB to 111,1 MB.
+Total: 3,160287 ms (FindLiveObjects: 0,202611 ms CreateObjectMapping: 0,106840 ms MarkObjects: 2,746418 ms  DeleteObjects: 0,103209 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -178,14 +181,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4344,837592 seconds.
-  path: Assets/Scripts/Gestures/ScaleGestureRecognizer.cs
-  artifactKey: Guid(09b262ed295e7eb0199b3a5202af0c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gestures/ScaleGestureRecognizer.cs using Guid(09b262ed295e7eb0199b3a5202af0c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c4416bd7c6d86ab22e848222498b97') in 0,004756 seconds 
+  Time since last request: 3742,793189 seconds.
+  path: Assets/Scenes/Gestures.unity
+  artifactKey: Guid(2468fd727c371ff46bd3a2377b9be61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gestures.unity using Guid(2468fd727c371ff46bd3a2377b9be61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2e06fdc07400d5d1bdefb89e661e1d') in 0,016419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137,973829 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1e35aea092257c4233e4aef74df7a7') in 0,000517 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,001948 seconds.
+Registered in 0,002449 seconds.
+OnLevelWasLoaded was found on Navegacion
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -197,224 +209,29 @@ Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0,40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,616 seconds
+- Completed reload, in  0,709 seconds
 Domain Reload Profiling:
-	ReloadAssembly (616ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (710ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (471ms)
-			LoadAssemblies (34ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (213ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 0,96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3792.
-Memory consumption went from 109,8 MB to 109,8 MB.
-Total: 8,981101 ms (FindLiveObjects: 0,155873 ms CreateObjectMapping: 0,065585 ms MarkObjects: 8,733166 ms  DeleteObjects: 0,025725 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001924 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,644 seconds
-Domain Reload Profiling:
-	ReloadAssembly (645ms)
-		BeginReloadAssembly (70ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (507ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (232ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 1,12 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3795.
-Memory consumption went from 109,8 MB to 109,8 MB.
-Total: 2,555123 ms (FindLiveObjects: 0,182436 ms CreateObjectMapping: 0,086204 ms MarkObjects: 2,271928 ms  DeleteObjects: 0,013860 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001957 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,635 seconds
-Domain Reload Profiling:
-	ReloadAssembly (635ms)
-		BeginReloadAssembly (70ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (498ms)
-			LoadAssemblies (32ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (231ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 1,00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3798.
-Memory consumption went from 109,8 MB to 109,8 MB.
-Total: 2,821691 ms (FindLiveObjects: 0,170477 ms CreateObjectMapping: 0,073028 ms MarkObjects: 2,557768 ms  DeleteObjects: 0,019369 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002026 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,644 seconds
-Domain Reload Profiling:
-	ReloadAssembly (644ms)
-		BeginReloadAssembly (72ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (500ms)
-			LoadAssemblies (30ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (230ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -423,349 +240,12 @@ Platform modules already initialized, skipping
 OnLevelWasLoaded was found on Navegacion
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 1,03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1,41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3801.
-Memory consumption went from 109,8 MB to 109,8 MB.
-Total: 2,567651 ms (FindLiveObjects: 0,164005 ms CreateObjectMapping: 0,066789 ms MarkObjects: 2,318693 ms  DeleteObjects: 0,015909 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001958 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,685 seconds
-Domain Reload Profiling:
-	ReloadAssembly (686ms)
-		BeginReloadAssembly (75ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (539ms)
-			LoadAssemblies (32ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (236ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 0,95 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3804.
-Memory consumption went from 109,8 MB to 109,8 MB.
-Total: 2,832522 ms (FindLiveObjects: 0,173197 ms CreateObjectMapping: 0,070310 ms MarkObjects: 2,570058 ms  DeleteObjects: 0,018039 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1399,761957 seconds.
-  path: Assets/Scripts/Gestos.cs
-  artifactKey: Guid(a02374db2feb7df48b584077f546a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gestos.cs using Guid(a02374db2feb7df48b584077f546a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e90e3723f601c09d0caa375e69f4b1') in 0,003910 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002741 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,627 seconds
-Domain Reload Profiling:
-	ReloadAssembly (627ms)
-		BeginReloadAssembly (73ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (485ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (222ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 0,88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3807.
-Memory consumption went from 109,8 MB to 109,8 MB.
-Total: 2,337973 ms (FindLiveObjects: 0,149217 ms CreateObjectMapping: 0,062208 ms MarkObjects: 2,108689 ms  DeleteObjects: 0,015956 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 187,330437 seconds.
-  path: Assets/Scripts/Gestos.cs
-  artifactKey: Guid(a02374db2feb7df48b584077f546a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gestos.cs using Guid(a02374db2feb7df48b584077f546a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07396f801d606b3434d087dd2ee00f1e') in 0,003741 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002153 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,682 seconds
-Domain Reload Profiling:
-	ReloadAssembly (683ms)
-		BeginReloadAssembly (76ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (534ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (244ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (152ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 1,15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (22,0 KB). Loaded Objects now: 3810.
-Memory consumption went from 109,9 MB to 109,8 MB.
-Total: 2,340737 ms (FindLiveObjects: 0,174815 ms CreateObjectMapping: 0,066373 ms MarkObjects: 2,076273 ms  DeleteObjects: 0,021424 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002073 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,687 seconds
-Domain Reload Profiling:
-	ReloadAssembly (688ms)
-		BeginReloadAssembly (74ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (536ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (247ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 1,24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3813.
-Memory consumption went from 109,9 MB to 109,8 MB.
-Total: 2,539690 ms (FindLiveObjects: 0,155447 ms CreateObjectMapping: 0,059528 ms MarkObjects: 2,305274 ms  DeleteObjects: 0,018575 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,003190 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,684 seconds
-Domain Reload Profiling:
-	ReloadAssembly (684ms)
-		BeginReloadAssembly (74ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (537ms)
-			LoadAssemblies (32ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (247ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (155ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 1,00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3816.
+Unloading 3310 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3796.
 Memory consumption went from 109,9 MB to 109,9 MB.
-Total: 2,543237 ms (FindLiveObjects: 0,173283 ms CreateObjectMapping: 0,072554 ms MarkObjects: 2,278979 ms  DeleteObjects: 0,017368 ms)
+Total: 3,644050 ms (FindLiveObjects: 0,239433 ms CreateObjectMapping: 0,144142 ms MarkObjects: 3,241059 ms  DeleteObjects: 0,018296 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -776,211 +256,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002032 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,696 seconds
-Domain Reload Profiling:
-	ReloadAssembly (696ms)
-		BeginReloadAssembly (75ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (551ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (246ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 0,99 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21,9 KB). Loaded Objects now: 3819.
-Memory consumption went from 109,9 MB to 109,9 MB.
-Total: 2,453064 ms (FindLiveObjects: 0,179026 ms CreateObjectMapping: 0,070596 ms MarkObjects: 2,184935 ms  DeleteObjects: 0,017500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 348,430514 seconds.
-  path: Assets/FingersEarthTexture.png
-  artifactKey: Guid(3e9420ee3db642995a0e0e7fed3a3114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FingersEarthTexture.png using Guid(3e9420ee3db642995a0e0e7fed3a3114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfd823e660848ef4a51fdf88f58e635') in 0,046568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41,177358 seconds.
-  path: Assets/Earth_textura.mat
-  artifactKey: Guid(08afc4a1a31626a55adbe3c0b11798b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Earth_textura.mat using Guid(08afc4a1a31626a55adbe3c0b11798b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb41fbc8193c7fbe95e08ecd662ca52') in 0,107112 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001964 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,671 seconds
-Domain Reload Profiling:
-	ReloadAssembly (672ms)
-		BeginReloadAssembly (75ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (522ms)
-			LoadAssemblies (34ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (238ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 1,48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (22,0 KB). Loaded Objects now: 3863.
-Memory consumption went from 112,2 MB to 112,2 MB.
-Total: 2,461179 ms (FindLiveObjects: 0,175540 ms CreateObjectMapping: 0,072866 ms MarkObjects: 2,193617 ms  DeleteObjects: 0,018030 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001982 seconds.
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/nassud/Documents/Uniempresarial/Videojuegos Moviles/unity-taller2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0,54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,682 seconds
-Domain Reload Profiling:
-	ReloadAssembly (682ms)
-		BeginReloadAssembly (75ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (536ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (244ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on Navegacion
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 1,13 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (22,0 KB). Loaded Objects now: 3866.
-Memory consumption went from 112,2 MB to 112,2 MB.
-Total: 2,442661 ms (FindLiveObjects: 0,161695 ms CreateObjectMapping: 0,065856 ms MarkObjects: 2,196121 ms  DeleteObjects: 0,017713 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44407117, g: 0.4933157, b: 0.57239467, a: 1}
+  m_IndirectSpecularColor: {r: 0.4440218, g: 0.49316478, b: 0.5722311, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -181,9 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Back
-
-'
+  m_text: Volver
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1238,7 +1236,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 301810308}
         m_TargetAssemblyTypeName: Navegacion, Assembly-CSharp
-        m_MethodName: OnLevelWasLoaded
+        m_MethodName: Load
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
